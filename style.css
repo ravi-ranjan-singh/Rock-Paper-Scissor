@@ -1,0 +1,71 @@
+body{
+    background-color: #24272e;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.scoreBoard
+{
+    background-color: #24272e!important;;
+    width: 35%;
+    height: 30vh;
+    border:1px solid white;
+    color: white;
+    margin-top:5%;
+    position: relative;
+}
+
+img
+{
+    width: 100px;
+    height: auto;
+    margin-top:5%;
+    margin-left: 5%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.rock
+{
+    margin-left: 31%;
+}
+
+.user,.comp
+{
+    background-color: orangered;
+    display: block;
+    position: absolute;
+    width:30%;
+    height:5vh;
+    top:50%;
+    transform: translate(0,-50%);
+    padding-top:5px;
+}
+
+.user{left:-15%}
+
+.comp{right:-15%}
+
+.container{position: relative;}
+h3{display: inline;}
+
+h2{color: white;
+text-align: center;
+margin-top:10px;
+}
+
+.userChoice,.compChoice
+{
+    width: 100px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #fff;
+    display:none;
+    position: absolute;
+    top:18%;
+}
+
+.userChoice{left:10%}
+.compChoice{right:10%}
